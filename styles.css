@@ -1,0 +1,218 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; 
+}
+#main { 
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-image:url("images/bg.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+#name {
+    margin-top: 0px;
+    width: 200px;
+    height: 80px;
+    float: left;
+    font-color:white;
+}
+#name h1{
+    position: absolute;
+    margin-top: 5px;
+    font-size: 40px;
+}
+#middle{
+    position: absolute;
+    margin-left: 250px;
+    margin-right: 650px;
+    width: 900px;
+    height:80px;
+    background-color:;
+}
+#phone  {
+    position: absolute;
+    margin-top: 15px;
+    width: 150px;
+    height: 55px;
+    margin-left: 1150px;
+    background: ;
+    float: right;
+}
+#phone ul li{
+    padding: 4px;
+}
+.nav{
+    height:70px; 
+    max-width: 1500px;
+    margin: auto;
+    background-image:url("images/bg.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-color:#ff9999;
+}
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top:5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: 7F7FFF;
+}
+ul li{
+  float: left;
+  display: inline-block;
+}
+ul li a{
+  margin-top: 15px;
+  margin-right: 90px;
+  display: block;
+  padding:9px;
+  border: 1px solid trasparent;
+  border-radius: 20px;
+  text-align: middle;
+  position: middle;
+  color: #000000;
+  transition: 0.6 ease;
+}
+
+ul li a:visited{
+    background-color: #ffe6e6;
+}
+ul li a:hover{
+  background-color:#EA406A; 
+  color: white;
+}
+ul li a.active{
+  background-color:#EA406A; 
+  color:#000000;
+}
+
+.effect slide{
+  height: 759px;
+  width: 1350px;
+}
+
+.col1{
+    position: absolute;
+    margin-top:200px;
+    height: 400px;
+    width: 550px;
+    margin-left: 90px;
+    background-color: yellow;
+    background-image: url("images/slogan.jpg");
+    float: right;
+    opacity: 0.8;
+   
+}
+.last{
+    position: absolute;
+    margin-top: 800px;
+    width: 100%;
+    height:200px;
+    background-color:#2D2D2D;
+}
+.fb{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:490px;
+    width: 60px;
+    height: 60px;
+}
+.fb img{
+    width: 60px;
+    height: 60px;
+}
+.insta{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 620px;
+    width: 60px;
+    height: 60px;
+    background-color:#000000;
+}
+.insta img{
+     width: 60px;
+    height: 60px;
+}
+.messenger{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 750px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+}
+.messenger img{
+    width: 60px;
+    height: 60px;
+}
+.copyright{
+    position: absolute;
+    margin-top:140px;
+    margin-left:390px;
+    color: #ffffff;
+    font-size: 30px;
+
+}
+.table{
+    position: absolute;
+    margin-top:0px;
+    height: 600px;
+    width: 1345px;
+    margin-left: 0px;
+    background-color:;
+    float: right;
+    opacity: ;
+
+}
+
+.main10{
+  
+}
+
+
+
+.contdiv{
+    position: absolute;
+    margin-top:90px;
+    height: 400px;
+    width: 600px;
+    margin-left: 380px;
+    background-color:;
+    float: right;
+    opacity: ; 
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

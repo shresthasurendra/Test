@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+<head>
+	<head>
+				<title>PraBi</title>
+				<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script type="text/javascript">
+				var Age
+				if(document.myform.age.value=""){
+					alert("Enter your age:");
+					document.myForm.age.focus() ; 
+					return false;
+				}
+				return(true);
+
+		</script>
+</head>
+<body>
+	<div id="main">
+			  <div id="name">
+			  	<a href="prabina.html"><h1>𝓟𝓻𝓪𝓑𝓲'𝓼</h1></a>
+			 </div>
+				  <div id="middle">
+					<ul>
+						<li><a class="active" href="prabina.html">Home</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="Gallery1.html">Gallery</a></li>
+						<li><a href="Appointment.html">Appointment</a></li>
+					</ul>	 	
+				  </div>
+					    <div id="phone">
+					  	<ul>
+						  	<li id="ph">Phone</li>
+						  	<li id="ph">9823255854</li>
+						</ul>
+				  		</div> 
+	</div>
+				<div class="main">
+
+					 <form action="prabina.html"  name="myform">	
+						<fieldset>	
+							<legend>Personal Information</legend>
+									<table border="1px">
+											<tr>
+												<td>
+													First name:
+													<input id="fname" type="text" name="firstname" value="" size="20">	
+												</td>	
+												<td>
+													Middle name:
+													<input id="mname" type="text" name="middlename" value="" size="20">	
+												</td>
+												<td>
+													Last name:
+													<input id="lname" type="text" name="lastname" value="" size="20">
+												</td>
+											</tr>
+											<tr>
+												<td>
+													Age:
+													<input id="age" type="Number" name="age" value="">
+													
+												</td>
+												<td>
+													Nationality
+														<select>
+															<option value="Select">Select</option>
+															<option value="nepalese">Nepalese</option>
+															<option value="japnisese">Japaniese</option>
+															<option value="argentine">Argentine</option>
+														</select>
+												</td>
+												
+											</tr>
+											<tr>
+												<td>
+													Gender:
+													<input type="radio" name="gender" value="male">Male
+												</td>
+													
+												<td>
+													<input type="radio" name="gender" value="female">Female
+												</td>
+												<td>
+													<input type="radio" name="gender" value="other">Other
+												</td>
+												
+											</tr>
+									</table>
+							</fieldset>	
+									<fieldset>
+												<legend>Contact</legend>
+													<table>
+														<tr>
+															<td>
+																Contact Type
+																	 <select>
+																		<option value="Select">Select</option>
+																		<option value="">Email</option>
+																		<option value="">Messenger</option>
+																		<option value="">Viber</option>
+																	</select>
+															</td>
+															<td>
+															</td>
+															<td>
+																Number
+																	<input type ="Text" value ="">
+															</td>
+														</tr>	
+															 
+													</table>		
+									</fieldset>
+										
+										<table align = "Middle">
+											<tr>
+												<td>
+													Comment
+														<input type ="textarea"  align = "middle" value ="comment" size ="20">
+												</td>
+											</tr>
+											
+										</table>
+													
+											<tr>
+												<td>
+													<button type="submit" onclick="return validate()">Submit</button>
+												</td>
+											</tr>	
+									
+															
+					
+												</table>
+						
+					</form>	
+					
+				</div>
+				<div class="last">
+							<div class="fb">
+								<a href="https://www.facebook.com/pages/category/Beauty--Cosmetic---Personal-Care/Prabi-Beauty-Corner-2118206161807814/"><img src="images\fb.png"></a>
+							</div>
+							<div class="insta">
+				  				<a href="https://www.instagram.com/prabibeautycorner/"><img src="images\instagram.png"></a>
+							</div>
+							<div class="messenger">
+				  				<a href="https://www.messenger.com/t/2118206161807814"><img src="images\messenger.png"></a>
+							</div>
+							<div class="copyright">
+								<p>&copy; Copyright 2020. All The Rights Reserved</p>
+							</div>	
+					</div>				
+		</body>
+</html>
