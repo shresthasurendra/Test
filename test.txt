@@ -1,2 +1,6 @@
 trying to know about commit
 Changing after saving the commit to see the changes
+Shpppping list
+laptop
+chair
+table
